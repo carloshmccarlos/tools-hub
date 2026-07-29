@@ -67,11 +67,11 @@ function RootComponent() {
   }, []);
 
   return (
-    <html lang="en" className="light">
-      <head>
+    <html lang="en" className="light" suppressHydrationWarning>
+      <head suppressHydrationWarning>
         <HeadContent />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         <Header onOpenSearch={() => setIsSearchOpen(true)} />
         <main
           style={{
