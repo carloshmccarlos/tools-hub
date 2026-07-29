@@ -1,0 +1,42 @@
+# Tool Hub
+
+> A Curated Directory of Premium Web Tools, Generators, Formatters, and Calculators.
+
+Tool Hub provides instant access to 87 specialized web utilities designed for high performance, zero tracking, and direct standalone execution.
+
+## Core Platform Architecture
+- **Domain-Tuned Algorithms**: Specialized phonetic matrices for generators and standard financial formulas for calculators.
+- **Zero Tracking & Privacy First**: Session data stays strictly inside the browser sandbox. No persistent tracking or mandatory registrations.
+- **Direct Standalone Launch**: One click opens full-featured utility suites optimized for desktop, mobile, and rapid workflow integration.
+- **100% Free Access**: No accounts, paywalls, or hidden subscription costs.
+
+## Tool Categories
+
+### 1. Calculators
+A comprehensive suite of 50 calculators spanning:
+- **Finance**: 401k, Coast FIRE, Retirement, Mortgage Payoff, Cap Rate, Markup, Reverse Mortgage, SCHD Dividend, Paycheck, CD, Money Market, etc.
+- **Home & Construction**: Asphalt, Conduit Fill, Concrete Block, Drywall, Siding, Fence, Sod, Paver, Roofing, Rafter, Boiler Feed Pump.
+- **Math**: Square Feet, Cubic Feet, Percentage, Proportion, Linear Regression, Binomial Distribution, Differential Equation.
+- **Health & Lifestyle**: Blood Alcohol, Waist-Hip Ratio, EtG, A1C, MAP, Steps to Miles, Sobriety, Puppy Weight, Stone Weight.
+
+### 2. Generators
+26 unique name and content generators across categories:
+- **Culture & Language**: Authentic Chinese, Japanese, Spanish, French, and German names with meanings and era controls.
+- **Fantasy & RPG**: Characters, Elves, Dragons, Skyrim, Wizards, Warriors, and Towns.
+- **Branding & Real-World**: Restaurant, Team, YouTube Channel names.
+- **Entertainment**: Band, Book Title, Song, Superhero, Game Horse, Wu-Tang names.
+
+### 3. Formatters
+Professional tools to rewrite and format data:
+- **Business**: Offer Letter Formatter, Email Formatter, LinkedIn Post Generator.
+- **Developer**: JSON Formatter (minify, validate, repair), YAML Formatter, AI DAX Formatter.
+- **Academic**: MLA Format Header generator.
+
+### 4. AI & Utilities
+- **MorseAI Translator**: Convert voice recordings and audio files to Morse code using AI.
+- **AI Images Description**: Learn vocabulary from pictures and learn words from photos with AI.
+- **Random Phone Number**: Generate realistic random phone numbers for testing.
+- **TextSync Workspace**: Sync text, clipboard content, and messages across devices in real-time.
+
+## About
+Tool Hub is built with TanStack Start, providing a lightning-fast directory experience. All tools are hosted independently but curated through this central hub.
