@@ -15,4 +15,9 @@ export default defineConfig({
       projects: ['./tsconfig.json'],
     }),
   ],
+  define: {
+    'process.env.TSS_PRERENDERING': 'false',
+    'process.env.TSS_SHELL': 'false',
+    'process.env': '{}'
+  },
 });
