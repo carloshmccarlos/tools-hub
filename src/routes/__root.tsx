@@ -18,7 +18,7 @@ export const Route = createRootRoute({
       { property: 'og:title', content: 'ToolHub — Directory of Premium Web Tools & Calculators' },
       { property: 'og:description', content: 'A curated directory of 87+ high-performance web tools, AI name generators, precision calculators, and developer formatters.' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://tool-hub.loveyouall.qzz.io/' },
+      { property: 'og:url', content: 'https://317713.xyz/' },
       { property: 'og:site_name', content: 'ToolHub' },
       
       // Twitter
@@ -27,7 +27,9 @@ export const Route = createRootRoute({
       { name: 'twitter:description', content: 'A curated directory of 87+ high-performance web tools, AI name generators, precision calculators, and developer formatters.' },
     ],
     links: [
+      { rel: 'canonical', href: 'https://317713.xyz/' },
       { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      { rel: 'shortcut icon', type: 'image/svg+xml', href: '/favicon.svg' },
       { rel: 'stylesheet', href: appCss },
       { rel: 'preconnect', href: 'https://api.fontshare.com' },
       { rel: 'stylesheet', href: 'https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700,400,900&f[]=satoshi@900,700,500,300,400&display=swap' },

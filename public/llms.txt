@@ -39,4 +39,6 @@ Professional tools to rewrite and format data:
 - **TextSync Workspace**: Sync text, clipboard content, and messages across devices in real-time.
 
 ## About
-Tool Hub is built with TanStack Start, providing a lightning-fast directory experience. All tools are hosted independently but curated through this central hub.
+Tool Hub is hosted at [https://317713.xyz](https://317713.xyz) and built with TanStack Start, providing a lightning-fast directory experience. All tools are hosted independently but curated through this central hub.
+Sitemap: https://317713.xyz/sitemap.xml
+

@@ -38,3 +38,6 @@ src/
 3. **Max 1 React Component per File**: Strict compliance across all files under `components/` and `routes/`.
 4. **Docs First Policy**: All codebase changes are pre-documented in `/docs`.
 5. **pnpm Enforcement**: All command invocations strictly use `pnpm`.
+6. **Document Mutation Tolerance**: The client entry performs a full React render into the document after SSR. This isolates application startup from third-party nodes injected by Cloudflare or browser extensions before JavaScript execution.
+7. **Custom Production Domain**: The site is hosted at `https://317713.xyz`; all canonical links, OpenGraph metadata, JSON-LD schemas, robots.txt sitemap directives, and llms.txt reference this production domain.
+

@@ -19,3 +19,10 @@
 - **LocalStorage Persistence**: Browser storage for theme preferences and starred tool bookmarks.
 - **Tool Registry**: Centralized tool metadata catalog (`src/data/tools.ts`).
 - **SEO & Schema Engine**: Component-driven JSON-LD injection for structured data search engine rich snippets.
+
+## 5. Cloudflare Runtime Strategy
+- **Cloudflare Workers** serves the TanStack Start SSR response and static client assets.
+- **Client takeover** uses React `createRoot(document)` instead of hydration. This avoids failures when Cloudflare Web Analytics or browser extensions mutate the document before the application boots.
+- **Favicon**: `/favicon.svg` is declared through both standard and legacy icon relations; Workers static-asset redirects map `/favicon.ico` to the SVG asset.
+- **Custom Production Domain**: `https://317713.xyz` is declared as the main production domain, with sitemap available at `https://317713.xyz/sitemap.xml`.
+

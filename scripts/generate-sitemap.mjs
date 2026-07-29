@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 // The base URL for the Tool Hub
-const HUB_URL = 'https://tool-hub.loveyouall.qzz.io';
+const HUB_URL = 'https://317713.xyz';
 
 // All the external domains where tools are hosted
 const domains = [

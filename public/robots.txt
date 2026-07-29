@@ -19,4 +19,4 @@ Allow: /
 User-agent: FacebookBot
 Allow: /
 
-Sitemap: https://tool-hub.loveyouall.qzz.io/sitemap.xml
+Sitemap: https://317713.xyz/sitemap.xml

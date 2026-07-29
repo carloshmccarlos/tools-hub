@@ -1,7 +1,7 @@
 # Product Requirements Document (PRD) - Tool Hub Platform
 
 ## 1. Executive Summary
-Tool Hub is a high-end, Awwwards-tier web utility studio consolidating **Generative Naming** (`names.317713.xyz`) and **Precision Calculators** (`calculators.317713.xyz`) into a unified, high-performance web experience. Refactored under **High-End Visual Design** & **Motion Choreography** skill frameworks.
+Tool Hub is a high-end, Awwwards-tier web utility studio consolidating **Generative Naming** (`names.317713.xyz`) and **Precision Calculators** (`calculators.317713.xyz`) into a unified, high-performance web experience hosted at **`https://317713.xyz`**. Refactored under **High-End Visual Design** & **Motion Choreography** skill frameworks.
 
 ## 2. Aesthetic & Visual Architecture
 - **Aesthetic Vibe**: Ethereal Glass (OLED dark / crisp light theme with ambient OKLCH mesh glows and subtle grain overlay).
@@ -14,6 +14,7 @@ Tool Hub is a high-end, Awwwards-tier web utility studio consolidating **Generat
 - **Dual-Hub Switcher**: Instant tab switching between Name Generators (23 tools) and Calculators (34 tools).
 - **Global Quick Search (Ctrl+K)**: Keyboard-navigable quick search modal overlay.
 - **Starred Favorites**: LocalStorage-backed bookmarking system.
+- **SEO & GEO Engine**: Structured JSON-LD schema, canonical URLs (`https://317713.xyz/`), comprehensive `sitemap.xml`, AI crawler permissions in `robots.txt`, and `llms.txt`.
 - **Comprehensive Route Network**:
   - `/` (Hub Homepage)
   - `/tools/$slug` (Tool Landing Page)
@@ -21,3 +22,10 @@ Tool Hub is a high-end, Awwwards-tier web utility studio consolidating **Generat
   - `/contact` (Tool Request & Feedback)
   - `/privacy` (Zero-Tracking Privacy Policy)
   - `/terms` (Terms of Service)
+
+## 4. Deployment Reliability
+- The first client render must remain functional when Cloudflare Web Analytics, browser extensions, or other third parties insert nodes into the document.
+- Server-rendered HTML remains available for fast first paint and crawlers; the browser takes ownership through a safe client render rather than document-level hydration.
+- Production environment domain is set to `https://317713.xyz/` with sitemap verification at `https://317713.xyz/sitemap.xml`.
+- The public site declares both standard and legacy icon relations, and redirects legacy `/favicon.ico` requests to the SVG favicon.
+

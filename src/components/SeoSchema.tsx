@@ -3,7 +3,7 @@ export function SeoSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: 'ToolHub',
-    url: 'https://toolhub.dev',
+    url: 'https://317713.xyz/',
     description: 'Curated directory of 50+ AI name generators and domain calculators.',
     applicationCategory: 'UtilityApplication',
     operatingSystem: 'All',
