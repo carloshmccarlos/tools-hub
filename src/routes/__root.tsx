@@ -32,22 +32,6 @@ export const Route = createRootRoute({
       { rel: 'preconnect', href: 'https://api.fontshare.com' },
       { rel: 'stylesheet', href: 'https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700,400,900&f[]=satoshi@900,700,500,300,400&display=swap' },
     ],
-    scripts: [
-      {
-        type: 'application/ld+json',
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "ToolHub",
-          "url": "https://tool-hub.loveyouall.qzz.io/",
-          "description": "A curated directory of 87+ high-performance web tools, AI name generators, precision calculators, and developer formatters.",
-          "publisher": {
-            "@type": "Organization",
-            "name": "ToolHub"
-          }
-        })
-      }
-    ]
   }),
   component: RootComponent,
 });
